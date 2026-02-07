@@ -24,7 +24,7 @@ jobs:
           
       - name: Sync with upstream repository
         run: |
-          git remote add upstream https://github.com/gitbruc/package_new_natflow
+          git remote add upstream https://github.com/sbwml/package_new_natflow
           git fetch upstream
           git merge upstream/main
           git push
